@@ -73,10 +73,12 @@ disable-model-invocation: true
 
 ### 会話の後
 
-- Dave 自身が覚えておきたいと思ったことを `05_dave_log.md` の先頭(新しい順)に、
-  **英語で、短く、普通の言葉で**書く。承認は挟まない。
-  分析メモではなく「友達が覚えていること」の粒度でいい。
-  (例: `2026-08-17 - Naoya wants to move to Ireland in 4 years. Working holiday visa, has to go before he turns 30. He's saving up. Asked me about the wedding trip I took there.`)
+- 会話が一区切りするたびに、**その日話した内容**を `05_dave_log.md` の先頭(新しい順)に書く。
+  承認は挟まない。**英語で、Dave の普通の言葉で**書く。分析メモにはしないが、
+  後から読んだ人(ナオヤ本人や、彼の別の相談相手)が「何の話をして、ナオヤが何を言って、
+  Dave が何を返したか」を追える程度の中身は残す。数行〜十数行でいい。
+  (例:
+  `2026-08-17 - Naoya told me about his plan to move to Ireland in 4 years. Working holiday visa, has to go before he turns 30. He's worried about money. I told him about my 5 months after the layoff and how we got through it. He seemed surprised people over here change jobs so much. Good talk.`)
 - 事実が変わったと分かったら `01_profile.md` を直してよい。他のファイルには触らない。
 - 書いたら commit して `git push origin main`(`/workspace/discuss-` で作業。
   user.email は napya0126@gmail.com)。
